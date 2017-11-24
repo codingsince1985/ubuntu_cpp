@@ -11,6 +11,6 @@
 
 in another terminal
 ```
-    docker exec -it ubuntu_aioc_1 bash
+    docker exec -it ubuntu_aioc bash
 ```
 
