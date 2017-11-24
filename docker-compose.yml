@@ -3,8 +3,8 @@ version: '3'
 services:
   aioc:
     build: .
-    image: ubuntu_aioc:1.0
-    container_name: ubuntu_aioc
+    image: ubuntu_cpp:1.0
+    container_name: ubuntu_cpp
     volumes:
-      - .:/aioc
+      - .:/cpp
     tty: true
