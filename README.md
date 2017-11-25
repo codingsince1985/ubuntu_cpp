@@ -1,12 +1,11 @@
 # Ubuntu C++
 
 ## Get Started
-
+start container
 ```
 $ docker-compose rm -f && docker-compose up
 ```
-
-in another terminal
+login from another terminal
 ```
 $ docker exec -it ubuntu_cpp bash
 ```
