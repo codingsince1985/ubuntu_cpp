@@ -7,6 +7,6 @@ $ docker-compose rm -f && docker-compose up
 ```
 login from another terminal
 ```
-$ docker exec -it ubuntu_cpp bash
+$ docker exec -it ubuntu_cpp zsh
 ```
 

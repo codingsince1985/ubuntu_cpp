@@ -3,7 +3,7 @@ version: '3.3'
 services:
   cpp:
     build: .
-    image: ubuntu_cpp:1.0
+    image: ubuntu_cpp:2.0
     container_name: ubuntu_cpp
     volumes:
       - .:/cpp
