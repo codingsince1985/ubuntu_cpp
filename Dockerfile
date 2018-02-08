@@ -6,8 +6,6 @@ RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh
 
 ADD .vimrc /root/
 
-RUN printf 'export LC_CTYPE=en_AU.UTF-8' >> /root/.zshrc
-
 RUN ln -s /usr/bin/python3.5 /usr/bin/python
 
 WORKDIR /cpp
