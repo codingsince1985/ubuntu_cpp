@@ -8,4 +8,6 @@ ADD .vimrc /root/
 
 RUN ln -s /usr/bin/python3.5 /usr/bin/python
 
+RUN sed -i 's/robbyrussell/jonathen/g' /root/.zshrc
+
 WORKDIR /cpp
