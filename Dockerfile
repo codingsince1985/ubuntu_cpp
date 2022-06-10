@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
-ARG python=python3.9
+ARG python=python3.10
 
 RUN apt-get update && apt-get install -y build-essential vim curl git zsh $python && rm -rf /var/lib/apt/lists/*
 
